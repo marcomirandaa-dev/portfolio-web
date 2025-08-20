@@ -6,44 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Marco Miranda</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class ="cabecalho__menu__link" href="index.html">Home</a>
+             <a class ="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">
-            Transforme ideias em soluções digitais <strong>com tecnologia e qualidade!</strong>
+                Transforme ideias em soluções digitais <strong>com tecnologia e qualidade!</strong>
             </h1>
 
             <p class="apresentacao__conteudo__texto">
                 Olá! Sou <strong>Marco Miranda</strong>, desenvolvedor back-end apaixonado por criar soluções
                 eficientes e escaláveis.
-                Tenho experiência em <strong>Java</strong>, <strong>Python</strong> e <strong>Inteligência Artificial</strong>,
-                e estou sempre buscando aprimorar minhas habilidades para entregar o melhor resultado. Atualmente, participo do <strong>Programa ONE</strong>, uma parceria entre Oracle e Alura, que potencializa meu aprendizado com práticas modernas de
+                Tenho experiência em <strong>Java</strong>, <strong>Python</strong> e <strong>Inteligência
+                    Artificial</strong>,
+                e estou sempre buscando aprimorar minhas habilidades para entregar o melhor resultado. Atualmente,
+                participo do <strong>Programa ONE</strong>, uma parceria entre Oracle e Alura, que potencializa meu
+                aprendizado com práticas modernas de
                 desenvolvimento e foco em inovação.
             </p>
-           
+
             <p class="apresentacao__conteudo__texto">
                 Meu objetivo é unir conhecimento técnico e visão estratégica para ajudar empresas e pessoas
                 a alcançarem mais através da tecnologia.
             </p>
 
             <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/marcomirandaa/">LinkedIn</a>
-            <a class="apresentacao__links__link" href="https://github.com/marcomirandaa-dev">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Me encontre nas redes sociais:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/marcomirandaa-dev">
+                    <img src="./assets/github.png" alt="Logo Github">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/marcomirandaa/">
+                    <img src="./assets/linkedin.png" alt="Logo LinkedIn">
+                    LinkedIn
+                </a>
             </div>
         </section>
 
         <section>
 
-            <img src="marco.jpeg" alt="Foto do Marco Miranda, criador do site.">
+            <img class="foto-perfil" src="./assets/marco.jpeg" alt="Foto do Marco Miranda, criador do site.">
 
         </section>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Marco Miranda.</p>
+    </footer>
 </body>
 
 </html>
